@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Weather</title>
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Caramel&family=Fraunces:ital,opsz,wght@0,9..144,100;1,9..144,300&family=Nerko+One&family=Roboto:ital@1&family=Style+Script&display=swap" rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="index.css" type="text/css">
+      <script src="index.js" defer></script>
+  </head>
+
+    <body onload="getClima()">
+        <div id="contenedor">
+          <div class="block">
+            <div id="location"></div>
+            <div id="date"></div>
+            <div id="description"></div>
+          </div>
+
+          <div class="block">
+            <div class="inf_contenedor">
+              <em>Temperature</em>
+              <div class="info" id="temperature"></div>
+            </div>
+            <div class="inf_contenedor">
+              <em>Pressure</em>
+              <div  class="info" id="pressure"></div>
+            </div>
+            <div class="inf_contenedor">
+              <em>Humidity</em>
+              <div class="info" id="humidity"></div>
+            </div>            
+          </div>
+        </div>
+      <div id="load" class="loader">Loading...</div>
+    </body> 
+  <footer><h3>Coded by Jeffry Martinez G.</h3></footer>
+</html>
